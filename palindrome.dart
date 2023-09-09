@@ -1,4 +1,5 @@
 bool isPalindrome(String str) {
+  
   String myString = str.toLowerCase().replaceAll(RegExp(r'[^a-zA-Z0-9]'), '');
   int left = 0;
   int right = myString.length - 1;
